@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-30MC8MMHNE" nonce="fc67dc0a4a21db8c898e3e1a80a31c31"></script>
+<script nonce="fc67dc0a4a21db8c898e3e1a80a31c31">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "G-30MC8MMHNE", {"groups":"default","page_placeholder":"PLACEHOLDER_page_location"});</script>
+<meta name="description" content="Learn how to manage multiple GitHub accounts like a pro. Follow our expert tips for seamless account switching and efficient project management.Explore here" />
+<link rel="canonical" href="https://www.innoraft.com/blogs/manage-multiple-github-accounts-pro" />
+<meta property="og:site_name" content="Innoraft" />
+<meta property="og:type" content="Blog" />
+<meta property="og:url" content="https://www.innoraft.com/blogs/manage-multiple-github-accounts-pro" />
+<meta property="og:title" content="Manage multiple GitHub accounts like a pro!" />
+<meta property="og:description" content="Oftentimes it may happen that you have a Github account where you upload all your code for practice sessions or learning purposes. You have another Github account pertaining to your company profile. When you push your changes, be it to your own Github account or a project-specific, how do you make sure that the respective account is always used? Well, I am here to help!" />
+<meta property="og:image:url" content="https://www.innoraft.com/sites/default/files/Manage%20multiple%20GitHub%20accounts%20like%20a%20pro%21%20-%20Banner.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Manage multiple GitHub accounts like a pro!" />
+<meta name="twitter:description" content="Oftentimes it may happen that you have a Github account where you upload all your code for practice sessions or learning purposes. You have another Github account pertaining to your company profile. When you push your changes, be it to your own Github account or a project-specific, how do you make sure that the respective account is always used? Well, I am here to help!" />
+<meta name="twitter:image" content="https://www.innoraft.com/sites/default/files/Manage%20multiple%20GitHub%20accounts%20like%20a%20pro%21%20-%20Banner.png" />
+<meta name="google-site-verification" content="RIy7-lM7lwuiSlJvxkXKp48x4IKhfM_EyIHq9FHDem8" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-9JSMZN6BB8" nonce="fc67dc0a4a21db8c898e3e1a80a31c31"></script>
+<script nonce="fc67dc0a4a21db8c898e3e1a80a31c31">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-9JSMZN6BB8');
+    </script>
+<noscript><img height="1" width="1" src="https://certify.alexametrics.com/atrk.gif?account=NJTvs1oxWg20Km" alt="" /></noscript>
+<script nonce="fc67dc0a4a21db8c898e3e1a80a31c31">function initApollo(){var n=Math.random().toString(36).substring(7),o=document.createElement("script"); o.src="https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache="+n,o.async=!0,o.defer=!0, o.onload=function(){window.trackingFunctions.onLoad({appId:"66311d01fd9829030005a3ff"})}, document.head.appendChild(o)}initApollo();</script>
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<link rel="icon" href="/sites/default/files/2024-05/ms-icon-144x144_innoraft.png" type="image/png" />
+
+    <title>Manage multiple GitHub accounts like a pro! | Innoraft</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_7joJb7oqS7ru326iOudnXOhiJTB5mFWJ0CRWapM_6x0.css?delta=0&amp;language=en&amp;theme=innoraft&amp;include=eJyFkllywjAMhi-U5UgeORZGVLZSSWG5fU2glCEwfZHHn_bfziKZMUAFvjhNNuYX0JGGAuaoY2aJwL1NSrM_O3bE2B-BKYGLdnZptIwRDLso4uYKc4igSvIo4hemmjuqVRR2_spPGHeiZbyfw9VsIDIWrD4kdCC2weCI_wa55LbgJgwOcP6YW9AM8ptt1rEeO5iw9oag076bRHGk2uRpSg6H7wX1ctviSHiycbVDkbS0YR4VVtrPkKmCk9RtxyrpKV6RwTH1kSXbNrhJ-dUwehsjmEwEHGwP2hQOcXGXauOv4pvkqAhp0qXEv37XPj1DTWvGrS6eZzFMof2Cdm0_CCsq8Cc3LC7BlljIu5tWAWYKVzxJmRkdxw_8zYwPMKU3Yt3fzQJT3vsPBr4nxg" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_9boioXM_YmtJ1IrWEOPHsWH0hy_IM4wkcO7oNTH29Tk.css?delta=1&amp;language=en&amp;theme=innoraft&amp;include=eJyFkllywjAMhi-U5UgeORZGVLZSSWG5fU2glCEwfZHHn_bfziKZMUAFvjhNNuYX0JGGAuaoY2aJwL1NSrM_O3bE2B-BKYGLdnZptIwRDLso4uYKc4igSvIo4hemmjuqVRR2_spPGHeiZbyfw9VsIDIWrD4kdCC2weCI_wa55LbgJgwOcP6YW9AM8ptt1rEeO5iw9oag076bRHGk2uRpSg6H7wX1ctviSHiycbVDkbS0YR4VVtrPkKmCk9RtxyrpKV6RwTH1kSXbNrhJ-dUwehsjmEwEHGwP2hQOcXGXauOv4pvkqAhp0qXEv37XPj1DTWvGrS6eZzFMof2Cdm0_CCsq8Cc3LC7BlljIu5tWAWYKVzxJmRkdxw_8zYwPMKU3Yt3fzQJT3vsPBr4nxg" />
+<link rel="stylesheet" media="all" href="//cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_GAUOYpeMz_JMdQw3j9BxbwlNQxvS6z1pDjgbc7rOsks.css?delta=3&amp;language=en&amp;theme=innoraft&amp;include=eJyFkllywjAMhi-U5UgeORZGVLZSSWG5fU2glCEwfZHHn_bfziKZMUAFvjhNNuYX0JGGAuaoY2aJwL1NSrM_O3bE2B-BKYGLdnZptIwRDLso4uYKc4igSvIo4hemmjuqVRR2_spPGHeiZbyfw9VsIDIWrD4kdCC2weCI_wa55LbgJgwOcP6YW9AM8ptt1rEeO5iw9oag076bRHGk2uRpSg6H7wX1ctviSHiycbVDkbS0YR4VVtrPkKmCk9RtxyrpKV6RwTH1kSXbNrhJ-dUwehsjmEwEHGwP2hQOcXGXauOv4pvkqAhp0qXEv37XPj1DTWvGrS6eZzFMof2Cdm0_CCsq8Cc3LC7BlljIu5tWAWYKVzxJmRkdxw_8zYwPMKU3Yt3fzQJT3vsPBr4nxg" />
+<link rel="stylesheet" media="all" href="//cdn.lineicons.com/4.0/lineicons.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_fctg3UUik_7j1QIRpYnPIxBCI9oCO0qmIoe24uoCT-8.css?delta=5&amp;language=en&amp;theme=innoraft&amp;include=eJyFkllywjAMhi-U5UgeORZGVLZSSWG5fU2glCEwfZHHn_bfziKZMUAFvjhNNuYX0JGGAuaoY2aJwL1NSrM_O3bE2B-BKYGLdnZptIwRDLso4uYKc4igSvIo4hemmjuqVRR2_spPGHeiZbyfw9VsIDIWrD4kdCC2weCI_wa55LbgJgwOcP6YW9AM8ptt1rEeO5iw9oag076bRHGk2uRpSg6H7wX1ctviSHiycbVDkbS0YR4VVtrPkKmCk9RtxyrpKV6RwTH1kSXbNrhJ-dUwehsjmEwEHGwP2hQOcXGXauOv4pvkqAhp0qXEv37XPj1DTWvGrS6eZzFMof2Cdm0_CCsq8Cc3LC7BlljIu5tWAWYKVzxJmRkdxw_8zYwPMKU3Yt3fzQJT3vsPBr4nxg" />
+
+    
+  </head>
+  <body class="layout-no-sidebars has-featured-top page-node-1145 path-node node--type-blog">
+    <a href="#main-content" class="visually-hidden-focusable">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<div id="page-wrapper">
+  <div id="page">
+    <header id="header" class="header" role="banner" aria-label="Site header">
+                      <nav class="navbar fixed-top bg-transparent navbar-expand-lg" id="navbar-main">
+                    <div class="container">
+                          <a href="/" title="Home" rel="home" class="navbar-brand">
+          <img src="/themes/custom/innoraft/logo.svg" alt="Home" class="img-fluid d-inline-block align-top" width="167" height="38" />
+      </a>
+
+
+                          <div class="navbar-collapse-right">
+                <ul>
+                  <li class="nav-item search-icon">
+                    <a href="#" title="search-icon"></a>
+                  </li>
+                </ul>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CollapsingNavbar" aria-controls="CollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+              </div>
+              <div class="collapse navbar-collapse justify-content-end" id="CollapsingNavbar">
+                                  <nav role="navigation" aria-labelledby="block-innoraft-main-menu-menu" id="block-innoraft-main-menu" class="block block-menu navigation menu--main">
+            
+  <h2 class="visually-hidden" id="block-innoraft-main-menu-menu">Main navigation</h2>
+  
+
+        
+              <ul class="clearfix nav navbar-nav">
+                        <li class="nav-item"
+                  >
+                          <a href="/" class="nav-link nav-link--" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+              </li>
+                    <li class="nav-item"
+                  >
+                          <a href="/about-us" class="nav-link nav-link--about-us" data-drupal-link-system-path="node/9">About </a>
+              </li>
+                    <li class="nav-item menu-item--expanded dropdown"
+                  >
+                          <span class="nav-link dropdown-toggle nav-link-" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Services</span>
+                        <ul class="dropdown-menu">
+                        <li class="dropdown-item menu-item--expanded dropdown menu-link--parent menu-link--web"
+                  >
+                          <a href="/web" class="dropdown-toggle nav-link--web" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="node/21">Web</a>
+                        <ul class="dropdown-menu">
+                        <li class="dropdown-item"
+                  >
+                          <a href="/web/web-design" class="nav-link--web-web-design" data-drupal-link-system-path="node/509">Web design</a>
+              </li>
+                    <li class="dropdown-item"
+                  >
+                          <a href="/web/web-development" class="nav-link--web-web-development" data-drupal-link-system-path="node/489">Web development</a>
+              </li>
+                    <li class="dropdown-item"
+                  >
+                          <a href="/web/web-app-development" class="nav-link--web-web-app-development" data-drupal-link-system-path="node/508">Web app development</a>
+              </li>
+                    <li class="dropdown-item"
+                  >
+                          <a href="/web/progressive-web-app" class="nav-link--web-progressive-web-app" data-drupal-link-system-path="node/507">Progressive web app</a>
+              </li>
+                    <li class="dropdown-item"
+                  >
+                          <a href="/web/website-support-and-maintenance" class="nav-link--web-website-support-and-maintenance" data-drupal-link-system-path="node/510">Website support &amp; maintenance</a>
+              </li>
+            </ul>
+  
+              </li>
+                    <li class="dropdown-item menu-item--expanded dropdown menu-link--parent menu-link--mobile"
+                  >
+                          <a href="/mobile" class="dropdown-toggle nav-link--mobile" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="node/536">Mobile</a>
+                        <ul class="dropdown-menu">
+                        <li class="dropdown-item"
+                  >
+                          <a href="/mobile/mobile-app-design" class="nav-link--mobile-mobile-app-design" data-drupal-link-system-path="node/474">Mobile app design</a>
+              </li>
+                    <li class="dropdown-item"
+                  >
+                          <a href="/mobile/ios-app-development" class="nav-link--mobile-ios-app-development" data-drupal-link-system-path="node/480">iOS app development</a>
+              </li>
+                    <li class="dropdown-item"
+                  >
+                          <a href="/mobile/android-app-development" class="nav-link--mobile-android-app-development" data-drupal-link-system-path="node/486">Android app development</a>
+              </li>
+                    <li class="dropdown-item"
+                  >
+                          <a href="/mobile/hybrid-app-development" class="nav-link--mobile-hybrid-app-development" data-drupal-link-system-path="node/487">Hybrid app development</a>
+              </li>
+                    <li class="dropdown-item"
+                  >
+                          <a href="/mobile/mobile-app-support-and-maintenance" class="nav-link--mobile-mobile-app-support-and-maintenance" data-drupal-link-system-path="node/488">Mobile app support &amp; maintenance</a>
+              </li>
+            </ul>
+  
+              </li>
+                    <li class="dropdown-item menu-item--expanded dropdown menu-link--parent menu-link--ecom"
+                  >
+                          <a href="/ecommerce" class="dropdown-toggle nav-link--ecommerce" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="node/1043">eCommerce</a>
+                        <ul class="dropdown-menu">
+                        <li class="dropdown-item"
+                  >
+                          <a href="/ecommerce/ecommerce-design" class="nav-link--ecommerce-ecommerce-design" data-drupal-link-system-path="node/775">eCommerce design</a>
+              </li>
+                    <li class="dropdown-item"
+                  >
+                          <a href="/ecommerce/ecommerce-web-development" class="nav-link--ecommerce-ecommerce-web-development" data-drupal-link-system-path="node/776">eCommerce web development</a>
+              </li>
+                    <li class="dropdown-item"
+                  >
+                          <a href="/ecommerce/ecommerce-web-support" class="nav-link--ecommerce-ecommerce-web-support" data-drupal-link-system-path="node/1008">eCommerce web support</a>
+              </li>
+                    <li class="dropdown-item"
+                  >
+                          <a href="/ecommerce/ecommerce-mobile-app-development" class="nav-link--ecommerce-ecommerce-mobile-app-development" data-drupal-link-system-path="node/1025">eCommerce mobile app development</a>
+              </li>
+                    <li class="dropdown-item"
+                  >
+                          <a href="/ecommerce/ecommerce-mobile-app-support" class="nav-link--ecommerce-ecommerce-mobile-app-support" data-drupal-link-system-path="node/1026">eCommerce mobile app support</a>
+              </li>
+            </ul>
+  
+              </li>
+                    <li class="dropdown-item menu-item--expanded dropdown menu-link--parent menu-link--dm"
+                  >
+                          <a href="/digital-marketing" class="dropdown-toggle nav-link--digital-marketing" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="node/1061">Digital Marketing</a>
+                        <ul class="dropdown-menu">
+                        <li class="dropdown-item"
+                  >
+                          <a href="/digital-marketing/consulting" class="nav-link--digital-marketing-consulting" data-drupal-link-system-path="node/1062">Consulting</a>
+              </li>
+                    <li class="dropdown-item"
+                  >
+                          <a href="/digital-marketing/seo" class="nav-link--digital-marketing-seo" data-drupal-link-system-path="node/1063">SEO</a>
+              </li>
+                    <li class="dropdown-item"
+                  >
+                          <a href="/digital-marketing/smm" class="nav-link--digital-marketing-smm" data-drupal-link-system-path="node/1064">SMM</a>
+              </li>
+                    <li class="dropdown-item"
+                  >
+                          <a href="/digital-marketing/analytics" class="nav-link--digital-marketing-analytics" data-drupal-link-system-path="node/1065">Analytics</a>
+              </li>
+                    <li class="dropdown-item"
+                  >
+                          <a href="/digital-marketing/content-writing-management" class="nav-link--digital-marketing-content-writing-management" data-drupal-link-system-path="node/1066">Content writing &amp; management</a>
+              </li>
+            </ul>
+  
+              </li>
+            </ul>
+  
+              </li>
+                    <li class="nav-item"
+                  >
+                          <a href="/blogs" class="nav-link nav-link--blogs" data-drupal-link-system-path="node/1326">Blogs</a>
+              </li>
+                    <li class="nav-item"
+                  >
+                          <a href="/careers" class="nav-link nav-link--careers" data-drupal-link-system-path="node/18">Careers</a>
+              </li>
+                    <li class="nav-item"
+                  >
+                          <a href="/contact-us" class="nav-link nav-link--contact-us" data-drupal-link-system-path="node/17">Contact</a>
+              </li>
+              <li class="nav-item search-icon">
+        <a href="#" title="search-icon"></a>
+      </li>
+        </ul>
+  
+
+
+  </nav>
+
+
+                                              </div>
+                                            </div>
+                  </nav>
+          </header>
+    <div class="quick-search-panel fixed-top">
+      <div class="container">
+        <div class="views-exposed-form bef-exposed-form block block-views block-views-exposed-filter-blocksolr-search-page-1" data-bef-auto-submit-full-form="" data-bef-auto-submit="" data-bef-auto-submit-delay="500" data-drupal-selector="views-exposed-form-solr-search-page-1">
+  
+      <h2>Solr Search</h2>
+    
+      <div class="content">
+      
+<form action="/search" method="get" id="views-exposed-form-solr-search-page-1" accept-charset="UTF-8">
+  <div class="d-flex flex-wrap">
+  
+
+
+
+
+
+  <div class="js-form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-keywords form-item-keywords mb-3">
+          
+                    
+<input placeholder="Search..." data-drupal-selector="edit-keywords" data-search-api-autocomplete-search="solr_search" class="form-autocomplete form-control" data-autocomplete-path="/search_api_autocomplete/solr_search?display=page_1&amp;&amp;filter=keywords" type="text" id="edit-keywords" name="keywords" value="" size="30" maxlength="128" />
+
+                      </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper mb-3" id="edit-actions"><button data-bef-auto-submit-click="" data-drupal-selector="edit-submit-solr-search" type="submit" id="edit-submit-solr-search" value="Submit" class="js-form-submit form-submit">Submit</button>
+</div>
+
+</div>
+
+</form>
+
+    </div>
+  </div>
+
+      </div>
+    </div>
+          <div class="highlighted">
+        <aside class="container section clearfix" role="complementary">
+            <div data-drupal-messages-fallback class="hidden"></div>
+
+
+        </aside>
+      </div>
+                      <div class="featured-top">
+          <aside class="featured-top__inner section container clearfix" role="complementary">
+              <section class="row region region-featured-top">
+    <div class="views-element-container block block-views block-views-blockbanner-block-1" id="block-innoraft-views-block-banner-block-1">
+  
+    
+      <div class="content">
+      <div><div class="view view-banner view-id-banner view-display-id-block_1 js-view-dom-id-fac9156d599ff5acd566cd7d116399c906c10b2fd682a2dbe64fcba970198dfb">
+  
+    
+      
+      <div class="view-content row">
+          <div class="views-row">
+    <div class="views-field views-field-field-banner"><div class="field-content"></div></div>
+  </div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+  </section>
+
+          </aside>
+        </div>
+              <div id="main-wrapper" class="layout-main-wrapper clearfix">
+              <div id="main" class="container">
+                    <div class="row row-offcanvas row-offcanvas-left clearfix">
+              <main class="main-content col" id="content" role="main">
+                <section class="section">
+                  <a href="#main-content" id="main-content" tabindex="-1"></a>
+                    <div id="block-innoraft-content" class="block block-system block-system-main-block">
+  
+    
+      <div class="content">
+      
+
+
+<article data-history-node-id="1145" class="node node--type-blog node--view-mode-full clearfix">
+  <header>
+    
+        
+      </header>
+  <div class="node__content clearfix">
+    <div class="blog-banner">
+      <div class="blog-header">
+        <div class="title">
+          <div class="blog-details">
+            <h5 class="creation-time h5--heading-bsd">30th Dec, 2020</h5>
+            
+            <div class="field field--name-field-reading-time field--type-estimated-read-time field--label-hidden field__item">1 min read
+</div>
+      
+          </div>
+          <h1>
+            Manage multiple GitHub accounts like a pro!
+          </h1>
+        </div>
+        <span class="blog-author">
+                    <div class="author-details">
+            <h4></h4>
+          </div>
+        </span>
+        
+      <div class="field field--name-field-blog-tags field--type-entity-reference field--label-hidden field__items">
+              <div class="field__item"><a href="/tags/drupal-planet" hreflang="en">Drupal Planet</a></div>
+              <div class="field__item"><a href="/tags/git" hreflang="en">Git</a></div>
+              <div class="field__item"><a href="/tags/github" hreflang="en">Github</a></div>
+              <div class="field__item"><a href="/tags/website-development-services" hreflang="en">website development services</a></div>
+          </div>
+  
+      </div>
+      
+            <div class="field field--name-field-banner-image field--type-entity-reference field--label-hidden field__item"><div>
+  
+  
+  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
+    <div class="field__label visually-hidden">Image</div>
+              <div class="field__item">  <img src="/sites/default/files/styles/converted_to_webp/public/Manage%20multiple%20GitHub%20accounts%20like%20a%20pro%21%20-%20Banner.png.webp" width="1440" height="600" alt="Manage multiple GitHub accounts like a pro! - Banner" title="Manage multiple GitHub accounts like a pro!" loading="lazy" class="image-style-converted-to-webp" />
+
+
+</div>
+          </div>
+
+</div>
+</div>
+      
+    </div>
+    
+
+  <nav role="navigation" aria-label="breadcrumb" style="">
+    <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+          <a href="/">Home</a>
+        </li>
+                        <li class="breadcrumb-item">
+          <a href="/blogs">Blogs</a>
+        </li>
+                        <li class="breadcrumb-item active">
+          Manage Multiple GitHub Accounts Like a Pro!
+        </li>
+              </ol>
+  </nav>
+
+    <div class="block block-better-social-sharing-buttons block-social-sharing-buttons-block">
+  
+    
+      <div class="content">
+      
+
+<div style="display: none"><link rel="preload" href="/modules/contrib/better_social_sharing_buttons/assets/dist/sprites/social-icons--no-color.svg" as="image" type="image/svg+xml" crossorigin="anonymous" /></div>
+
+<div class="social-sharing-buttons">
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.innoraft.com/blogs/manage-multiple-github-accounts-pro&amp;title=Manage%20multiple%20GitHub%20accounts%20like%20a%20pro%21" target="_blank" title="Share to Facebook" aria-label="Share to Facebook" class="social-sharing-buttons__button share-facebook" rel="noopener">
+            <svg width="20px" height="20px" style="border-radius:3px;">
+                <use href="/modules/contrib/better_social_sharing_buttons/assets/dist/sprites/social-icons--no-color.svg#facebook" />
+            </svg>
+        </a>
+    
+                <a href="https://twitter.com/intent/tweet?text=Manage%20multiple%20GitHub%20accounts%20like%20a%20pro%21+https://www.innoraft.com/blogs/manage-multiple-github-accounts-pro" target="_blank" title="Share to X" aria-label="Share to X" class="social-sharing-buttons__button share-x" rel="noopener">
+            <svg width="20px" height="20px" style="border-radius:3px;">
+                <use href="/modules/contrib/better_social_sharing_buttons/assets/dist/sprites/social-icons--no-color.svg#x" />
+            </svg>
+        </a>
+    
+        
+        
+        
+                <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.innoraft.com/blogs/manage-multiple-github-accounts-pro" target="_blank" title="Share to Linkedin" aria-label="Share to Linkedin" class="social-sharing-buttons__button share-linkedin" rel="noopener">
+            <svg width="20px" height="20px" style="border-radius:3px;">
+                <use href="/modules/contrib/better_social_sharing_buttons/assets/dist/sprites/social-icons--no-color.svg#linkedin" />
+            </svg>
+        </a>
+    
+        
+        
+        
+        
+                <a href="mailto:?subject=Manage%20multiple%20GitHub%20accounts%20like%20a%20pro%21&amp;body=https://www.innoraft.com/blogs/manage-multiple-github-accounts-pro" title="Share to Email" aria-label="Share to Email" class="social-sharing-buttons__button share-email" target="_blank" rel="noopener">
+            <svg width="20px" height="20px" style="border-radius:3px;">
+                <use href="/modules/contrib/better_social_sharing_buttons/assets/dist/sprites/social-icons--no-color.svg#email" />
+            </svg>
+        </a>
+    
+        
+    </div>
+
+    </div>
+  </div>
+
+    <div class="col-12 col-md-10 mx-auto section-spacer">
+      
+
+
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><span>Oftentimes it may happen that you have a Github account where you upload all your code for practice sessions or learning purposes. You have another Github account pertaining to your company profile. When you push your changes, be it to your own Github account or a project-specific, how do you make sure that the respective account is always used? Well, I am here to help!</span></p><h3>&nbsp;</h3><h3><strong>Set up SSH Keys</strong></h3><p><span>Let’s assume your two Github accounts are named </span><em><span>githubPersonal</span></em><span> and </span><em><span>githubWork</span></em><span>, respectively.</span></p><p><span>Create two SSH keys, saving each to a separate file:</span></p><p><img src="/sites/default/files/inline-images/1_2.png" data-entity-uuid="5b0e359c-8d38-426e-9580-90d38436e63a" data-entity-type="file" alt="mgh 1 img" width="621" height="78" loading="lazy"></p><p><span>Save it as id_rsa_personal when prompted.</span></p><p><img src="/sites/default/files/inline-images/2_2.png" data-entity-uuid="989aa8d8-2bf9-43db-9cb1-4cb58d004acd" data-entity-type="file" alt="mgh 2 img" width="620" height="33" loading="lazy"></p><p><span>Save it as id_rsa_work when prompted.</span></p><p><span>The above commands set up the following files:</span></p><p><span>- </span><em><span>id_rsa_personal</span></em></p><p><em><span>- id_rsa_personal.pub</span></em></p><p><em><span>- id_rsa_work</span></em></p><p><em><span>- id_rsa_work.pub</span></em></p><h3><span><strong>Add the keys to your Github accounts</strong></span></h3><p><span>Copy the key to your clipboard:</span></p><p><img src="/sites/default/files/inline-images/3_2.png" data-entity-uuid="09f29ab1-0d3e-4ad8-a4f0-b55022f196fe" data-entity-type="file" alt="mgh 3 img" width="619" height="31" loading="lazy"></p><p><span>In case you do not have pbcopy installed. To install and use pbcopy:</span></p><p><img src="/sites/default/files/inline-images/4_2.png" data-entity-uuid="42c119dd-f6eb-4a08-a58b-f01956e4792e" data-entity-type="file" alt="mgh 4 img" width="620" height="34" loading="lazy"></p><p><span>Edit your bash file</span></p><p><img src="/sites/default/files/inline-images/5_2.png" data-entity-uuid="934dc619-0706-463c-9fc0-3671c066f1b4" data-entity-type="file" alt="mgh 5 img" width="619" height="32" loading="lazy"></p><p><span>Create alias</span></p><p><img src="/sites/default/files/inline-images/6_2.png" data-entity-uuid="f74ce8b6-e182-4ce6-9922-d94d8965abd0" data-entity-type="file" alt="mgh 6 img" width="620" height="56" loading="lazy"></p><p><span>Refresh your bash</span></p><p><img src="/sites/default/files/inline-images/7_2.png" data-entity-uuid="0dbe980c-eaf2-4cbe-9830-cdad1c1d5838" data-entity-type="file" alt="mgh 7 img" width="619" height="34" loading="lazy"></p><p><span>Add the key to your account:</span></p><ul><li><span>Go to your Account Settings.</span></li><li><span>Click “SSH Keys” then “Add SSH key”.</span></li><li><span>Paste your key into the “Key” field and add a relevant title.</span></li><li><span>Click “Add key” then enter your Github password to confirm.</span></li></ul><p><span>Repeat the process for your githubWork account.</span></p><h3><span>Create a configuration file to manage the separate keys</span></h3><p><span>Create a config file in ~/.ssh/</span></p><p><img src="/sites/default/files/inline-images/8_1.png" data-entity-uuid="03bcf28d-687d-448d-b200-33b49b76e228" data-entity-type="file" alt="mgh 8 img" width="622" height="33" loading="lazy"></p><p><span>Edit the file using the text editor of your choice, here I am using nano, which is readily available in Linux.</span></p><p><img src="/sites/default/files/inline-images/9_0.png" data-entity-uuid="6ace65c1-f6de-4148-9cfb-9fdee35f6cda" data-entity-type="file" alt="mgh 9 img" width="620" height="34" loading="lazy"></p><p><span>Paste the following in the config file:</span></p><p><img src="/sites/default/files/inline-images/10.png" data-entity-uuid="175e68ce-0029-4d29-a259-3ebc1df908c8" data-entity-type="file" alt="mgh 10 img"></p><h3><span>Update stored identities</span></h3><p><span>Clear currently stored identities:</span></p><p><img src="/sites/default/files/inline-images/11_0.png" data-entity-uuid="b8ad5f84-e06d-4176-ac62-ff8d5fcc0af5" data-entity-type="file" alt="mgh 11 img" width="619" height="33" loading="lazy"></p><p><span>It will show all identities removed</span></p><p><span>Add new keys:</span></p><p><img src="/sites/default/files/inline-images/12_0.png" data-entity-uuid="1f8aa284-d6d0-4efc-bc46-851b0ea394ce" data-entity-type="file" alt="mgh 12 img" width="622" height="54" loading="lazy"></p><p><span>Test to make sure new keys are stored:</span></p><p><img src="/sites/default/files/inline-images/13_0.png" data-entity-uuid="e0739ed2-18f6-4888-a570-f79272489516" data-entity-type="file" alt="mgh 13 img" width="620" height="34" loading="lazy"></p><p><span>Test to make sure Github recognizes the keys:</span></p><p><img src="/sites/default/files/inline-images/14_0.png" data-entity-uuid="e1e5d63f-b434-4648-82e7-c9031706e0d3" data-entity-type="file" alt="mgh 14 img" width="619" height="31" loading="lazy"></p><p><span>You should see something like this:</span></p><p><img src="/sites/default/files/inline-images/15_0.png" data-entity-uuid="e8b26bec-d3df-4c6c-8060-3582e253bf89" data-entity-type="file" alt="mgh 15 img" width="619" height="54" loading="lazy"></p><p><img src="/sites/default/files/inline-images/16_0.png" data-entity-uuid="e4c78519-c099-476a-ba37-3a8edc811b3f" data-entity-type="file" alt="mgh 16 img" width="620" height="31" loading="lazy"></p><p><span>You should see something like this:</span></p><p><img src="/sites/default/files/inline-images/17_0.png" data-entity-uuid="a3dd622b-640e-4016-9dff-15a621060112" data-entity-type="file" alt="mgh 17 img" width="619" height="55" loading="lazy"></p><h3><span>One active SSH key in the ssh-agent at a time</span></h3><p><span>To keep things safe, we need to manually ensure that the ssh-agent has only the relevant key attached at the time of any Git operation. So that the active ssh key is used at the time of push</span></p><p><span>ssh-add -l will list all the SSH keys attached to the ssh-agent.</span></p><p><span>Clear currently stored identities:</span></p><p><span>ssh-add -D</span></p><p><span>Add the required ssh key</span></p><h3><span>Change config name and email for a project</span></h3><p><span>GitHub identifies the author of any commit from the email id attached with the commit description.</span></p><p><span>First, check the name the project is using:</span></p><p><img src="/sites/default/files/inline-images/18_0.png" data-entity-uuid="42622e04-eaf5-4b56-accb-d40256cc52c0" data-entity-type="file" alt="mgh 18 img" width="607" height="32" loading="lazy"></p><p><span>Check the email the project is using:</span></p><p><img src="/sites/default/files/inline-images/19_0.png" data-entity-uuid="c7e0c39c-163a-41f4-b2ec-502bb95d43ec" data-entity-type="file" alt="mgh 19 img" width="617" height="29" loading="lazy"></p><p><span>If you need to change then do the following:</span></p><p><img src="/sites/default/files/inline-images/20_0.png" data-entity-uuid="2634dd2f-273d-4e4c-b7fe-4cb94d277f53" data-entity-type="file" alt="mgh 20 img" width="621" height="55" loading="lazy"></p><p>&nbsp;</p></div>
+      
+    </div>
+  </div>
+</article>
+
+    </div>
+  </div>
+
+<div class="views-element-container block block-views block-views-blockrelated-blogs-block-1 section-spacer" id="block-innoraft-views-block-related-blogs-block-1">
+  
+      <h2>Related Blogs</h2>
+    
+      <div class="content">
+      <div><div class="view view-related-blogs view-id-related_blogs view-display-id-block_1 js-view-dom-id-6382b754aa6fef3b9448b0fa9dbff2d85fd6ac6375ec70d6b8f953b30bab7fe0">
+  
+    
+      <div class="view-header">
+      <h3 class="h2--heading-bsd mb-2">You might also be interested to know</h3>
+    </div>
+      
+      <div class="view-content row">
+          <div class="views-row">
+    
+
+<article data-history-node-id="1205" class="node node--type-blog node--view-mode-teaser clearfix">
+  <div class="node__content clearfix">
+    <div class="card-header">
+      
+            <div class="field field--name-field-teaser-image field--type-image field--label-hidden field__item">  <img src="/sites/default/files/Know%2520Why%2520and%2520How%2520to%2520Upgrade%2520to%2520Drupal%252010%2520-%2520Teaser%2520%25281%2529.png" width="307" height="180" alt="Know Why and How to Upgrade to Drupal 10 - Teaser" title="Know Why and How to Upgrade to Drupal 10" loading="lazy" />
+
+</div>
+      
+    </div>
+    <div class="card-body">
+      <div class="blog-details">
+        <p class="creation-time p--sm-bsd">15th Mar, 2022</p>
+        
+            <div class="field field--name-field-reading-time field--type-estimated-read-time field--label-hidden field__item">6 min read
+</div>
+      
+      </div>
+      <h5 class="h6--heading">
+        Know Why and How to Upgrade to Drupal 10
+      </h6>
+      <span class="blog-author">
+                <p> </p>
+      </span>
+      <div class="text-end">
+        <a href="/blogs/know-why-and-how-upgrade-drupal-10" class="read-more"><span>Read more</span><i class="lni lni-chevron-right">click</i></a>
+      </div>
+    </div>
+  </div>
+</article>
+
+  </div>
+    <div class="views-row">
+    
+
+<article data-history-node-id="1204" class="node node--type-blog node--view-mode-teaser clearfix">
+  <div class="node__content clearfix">
+    <div class="card-header">
+      
+            <div class="field field--name-field-teaser-image field--type-image field--label-hidden field__item">  <img src="/sites/default/files/Top%252010%2520Drupal%2520Accessibility%2520Modules%2520for%2520your%2520Next%2520Project%2520-%2520Teaser.png" width="307" height="180" alt="Top 10 Drupal Accessibility Modules for your Next Project - Teaser" title="Top 10 Drupal Accessibility Modules for your Next Project" loading="lazy" />
+
+</div>
+      
+    </div>
+    <div class="card-body">
+      <div class="blog-details">
+        <p class="creation-time p--sm-bsd">11th Mar, 2022</p>
+        
+            <div class="field field--name-field-reading-time field--type-estimated-read-time field--label-hidden field__item">5 min read
+</div>
+      
+      </div>
+      <h5 class="h6--heading">
+        Top 10 Drupal Accessibility Modules for your Next Project
+      </h6>
+      <span class="blog-author">
+                <p> </p>
+      </span>
+      <div class="text-end">
+        <a href="/blogs/top-10-drupal-accessibility-modules-your-next-project" class="read-more"><span>Read more</span><i class="lni lni-chevron-right">click</i></a>
+      </div>
+    </div>
+  </div>
+</article>
+
+  </div>
+    <div class="views-row">
+    
+
+<article data-history-node-id="1199" class="node node--type-blog node--view-mode-teaser clearfix">
+  <div class="node__content clearfix">
+    <div class="card-header">
+      
+            <div class="field field--name-field-teaser-image field--type-image field--label-hidden field__item">  <img src="/sites/default/files/Drupal%2520Security%2520Modules%2520That%2520Are%2520Must%2520for%2520Your%2520Site%2520-%2520Teaser.png" width="307" height="180" alt="Drupal Security Modules That Are Must for Your Site - Teaser" title="Drupal Security Modules That Are Must for Your Site" loading="lazy" />
+
+</div>
+      
+    </div>
+    <div class="card-body">
+      <div class="blog-details">
+        <p class="creation-time p--sm-bsd">8th Feb, 2022</p>
+        
+            <div class="field field--name-field-reading-time field--type-estimated-read-time field--label-hidden field__item">5 min read
+</div>
+      
+      </div>
+      <h5 class="h6--heading">
+        Drupal Security Modules That Are Must for Your Site
+      </h6>
+      <span class="blog-author">
+                <p> </p>
+      </span>
+      <div class="text-end">
+        <a href="/blogs/drupal-security-modules-are-must-your-site" class="read-more"><span>Read more</span><i class="lni lni-chevron-right">click</i></a>
+      </div>
+    </div>
+  </div>
+</article>
+
+  </div>
+    <div class="views-row">
+    
+
+<article data-history-node-id="1197" class="node node--type-blog node--view-mode-teaser clearfix">
+  <div class="node__content clearfix">
+    <div class="card-header">
+      
+            <div class="field field--name-field-teaser-image field--type-image field--label-hidden field__item">  <img src="/sites/default/files/Fully%2520Decoupled%2520Vs%2520Progressively%2520Decoupled%2520Drupal_%2520Which%2520Is%2520Better%2520-%2520Teaser.png" width="307" height="180" alt="Fully Decoupled Vs Progressively Decoupled Drupal: Which Is Better - Teaser" title="Fully Decoupled Vs Progressively Decoupled Drupal: Which Is Better" loading="lazy" />
+
+</div>
+      
+    </div>
+    <div class="card-body">
+      <div class="blog-details">
+        <p class="creation-time p--sm-bsd">24th Jan, 2022</p>
+        
+            <div class="field field--name-field-reading-time field--type-estimated-read-time field--label-hidden field__item">4 min read
+</div>
+      
+      </div>
+      <h5 class="h6--heading">
+        Fully Decoupled Vs Progressively Decoupled Drupal: Which Is Better
+      </h6>
+      <span class="blog-author">
+                <p> </p>
+      </span>
+      <div class="text-end">
+        <a href="/blogs/fully-decoupled-vs-progressively-decoupled-drupal-which-better" class="read-more"><span>Read more</span><i class="lni lni-chevron-right">click</i></a>
+      </div>
+    </div>
+  </div>
+</article>
+
+  </div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+
+                </section>
+              </main>
+                                  </div>
+        </div>
+          </div>
+            <div class="pre-footer">
+      <div class="container">
+        <div class="pre-footer--inner">
+            <section class="row region region-pre-footer-left">
+    <div id="block-innoraft-prefooterleft" class="block-content-basic block block-block-content block-block-contentd8551b80-eae7-42ee-a01b-26a1f488f544">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="quote-wrapper"><h3>Motivation is the catalyzing ingredient for every successful innovation.</h3><h4>Clayton Christensen</h4></div></div>
+      
+    </div>
+  </div>
+
+  </section>
+
+            <section class="row region region-pre-footer-right">
+    <div id="block-innoraft-webform" class="block block-webform block-webform-block">
+  
+      <h2>Get in touch</h2>
+    
+      <div class="content">
+      <span id="webform-submission-contact-us-form-node-1145-form-ajax-content"></span><div id="webform-submission-contact-us-form-node-1145-form-ajax" class="webform-ajax-form-wrapper" data-effect="fade" data-progress-type="throbber">
+<form class="webform-submission-form webform-submission-add-form webform-submission-contact-us-form-form webform-submission-contact-us-form-add-form webform-submission-contact-us-form-node-1145-form webform-submission-contact-us-form-node-1145-add-form js-webform-details-toggle webform-details-toggle" novalidate="novalidate" data-drupal-selector="webform-submission-contact-us-form-node-1145-add-form" action="/blogs/manage-multiple-github-accounts-pro" method="post" id="webform-submission-contact-us-form-node-1145-add-form" accept-charset="UTF-8">
+  
+  <div data-drupal-selector="edit-container" id="edit-container" class="js-form-wrapper form-wrapper mb-3">
+
+
+
+
+
+  <div id="edit-title" class="js-form-item js-form-type-processed-text form-type-processed-text js-form-item- form-item- form-no-label mb-3">
+                    
+                      </div>
+
+
+
+
+
+
+  <div id="edit-description-text" class="js-form-item js-form-type-processed-text form-type-processed-text js-form-item- form-item- form-no-label mb-3">
+                    <h3>Let’s build something great!</h3><p>Have a query or not sure where to start? Connect with us and we will reach out to you.</p>
+                      </div>
+
+
+
+
+
+
+  <div class="js-form-item js-form-type-textfield form-type-textfield js-form-item-name form-item-name mb-3">
+          <label for="edit-name" class="js-form-required form-required">Enter Name</label>
+                    
+<input data-drupal-selector="edit-name" type="text" id="edit-name" name="name" value="" size="60" maxlength="255" class="required form-control" required="required" aria-required="true" />
+
+                      </div>
+
+
+
+
+
+
+  <div class="js-form-item js-form-type-email form-type-email js-form-item-email form-item-email mb-3">
+          <label for="edit-email" class="js-form-required form-required">Enter email address</label>
+                    <input data-drupal-selector="edit-email" type="email" id="edit-email" name="email" value="" size="60" maxlength="254" class="form-email required form-control" required="required" aria-required="true" />
+
+                      </div>
+
+
+
+
+
+
+  <div class="js-form-item js-form-type-textfield form-type-textfield js-form-item-email-subject form-item-email-subject mb-3">
+          <label for="edit-email-subject" class="js-form-required form-required">Enter subject</label>
+                    
+<input data-drupal-selector="edit-email-subject" type="text" id="edit-email-subject" name="email_subject" value="" size="60" maxlength="255" class="required form-control" required="required" aria-required="true" />
+
+                      </div>
+
+
+
+
+
+
+  <div class="js-form-item js-form-type-textarea form-type-textarea js-form-item-message form-item-message mb-3">
+          <label for="edit-message">Your message</label>
+                    <div class="form-textarea-wrapper">
+  <textarea data-drupal-selector="edit-message" id="edit-message" name="message" rows="5" cols="60" class="form-textarea form-control resize-vertical"></textarea>
+</div>
+
+                      </div>
+
+
+
+
+
+
+  <div id="edit-disclaimer" class="js-form-item js-form-type-processed-text form-type-processed-text js-form-item- form-item- form-no-label mb-3">
+                    
+                      </div>
+</div>
+<div data-drupal-selector="edit-actions" class="form-actions webform-actions js-form-wrapper form-wrapper mb-3" id="edit-actions--2"><button class="webform-button--submit button-secondary js-form-submit form-submit" data-drupal-selector="edit-actions-submit" data-disable-refocus="true" type="submit" id="edit-actions-submit" name="op" value="Let&#039;s get started!">Let&#039;s get started!</button>
+
+</div>
+<input autocomplete="off" data-drupal-selector="form-ao-jzqmbgj9ehqkk-tdbcqj9zv1ht78ksz-mtafxyxg" type="hidden" name="form_build_id" value="form-Ao-jzqMBGJ9EhQKk_TdBCqj9zv1ht78ksz-mTafxYXg" class="form-control" />
+<input data-drupal-selector="edit-webform-submission-contact-us-form-node-1145-add-form" type="hidden" name="form_id" value="webform_submission_contact_us_form_node_1145_add_form" class="form-control" />
+<div class="site-textfield js-form-wrapper form-wrapper mb-3" style="display: none !important;">
+
+
+
+
+
+  <div class="js-form-item js-form-type-textfield form-type-textfield js-form-item-site form-item-site mb-3">
+          <label for="edit-site">Leave this field blank</label>
+                    
+<input autocomplete="off" data-drupal-selector="edit-site" type="text" id="edit-site" name="site" value="" size="20" maxlength="128" class="form-control" />
+
+                      </div>
+</div>
+
+
+  
+</form>
+</div>
+    </div>
+  </div>
+
+  </section>
+
+        </div>
+      </div>
+    </div>
+        <footer class="site-footer">
+              <div class="container">
+          <span id="go-top"><i class="lni lni-chevron-up"></i></span>
+                      <div class="site-footer__top clearfix">
+                <section class="row region region-footer-first">
+    <nav role="navigation" aria-labelledby="block-innoraft-web-menu" id="block-innoraft-web" class="block block-menu navigation menu--web">
+      
+  <h2 id="block-innoraft-web-menu">Web</h2>
+  
+
+        
+
+              <ul id="block-innoraft-web" class="clearfix menu">
+                          <li class="menu-item"
+                      >
+        <a href="/web/web-design" data-drupal-link-system-path="node/509">Web design</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/web/web-development" data-drupal-link-system-path="node/489">Web development</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/web/web-app-development" data-drupal-link-system-path="node/508">Web app development</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/web/website-support-and-maintenance" data-drupal-link-system-path="node/510">Website support &amp; maintenance</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/web/progressive-web-app" data-drupal-link-system-path="node/507">Progressive web app</a>
+              </li>
+        </ul>
+  
+
+  </nav>
+
+  </section>
+
+                <section class="row region region-footer-second">
+    <nav role="navigation" aria-labelledby="block-innoraft-mobile-menu" id="block-innoraft-mobile" class="block block-menu navigation menu--mobile">
+      
+  <h2 id="block-innoraft-mobile-menu">Mobile</h2>
+  
+
+        
+
+              <ul id="block-innoraft-mobile" class="clearfix menu">
+                          <li class="menu-item"
+                      >
+        <a href="/mobile/mobile-app-design" data-drupal-link-system-path="node/474">Mobile app design</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/mobile/ios-app-development" data-drupal-link-system-path="node/480">iOS app development</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/mobile/android-app-development" data-drupal-link-system-path="node/486">Android app development</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/mobile/hybrid-app-development" data-drupal-link-system-path="node/487">Hybrid app development</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/mobile/mobile-app-support-and-maintenance" data-drupal-link-system-path="node/488">Mobile app support &amp; maintenance</a>
+              </li>
+        </ul>
+  
+
+  </nav>
+
+  </section>
+
+                <section class="row region region-footer-third">
+    <nav role="navigation" aria-labelledby="block-innoraft-ecommerce-menu" id="block-innoraft-ecommerce" class="block block-menu navigation menu--ecommerce">
+      
+  <h2 id="block-innoraft-ecommerce-menu">eCommerce</h2>
+  
+
+        
+
+              <ul id="block-innoraft-ecommerce" class="clearfix menu">
+                          <li class="menu-item"
+                      >
+        <a href="/ecommerce/ecommerce-design" data-drupal-link-system-path="node/775">Ecommerce design</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/ecommerce/ecommerce-web-development" data-drupal-link-system-path="node/776">Ecommerce web development</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/ecommerce/ecommerce-web-support" data-drupal-link-system-path="node/1008">Ecommerce web support</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/ecommerce/ecommerce-mobile-app-development" data-drupal-link-system-path="node/1025">Ecommerce mobile app development</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/ecommerce/ecommerce-mobile-app-support" data-drupal-link-system-path="node/1026">Ecommerce mobile app support</a>
+              </li>
+        </ul>
+  
+
+  </nav>
+
+  </section>
+
+                <section class="row region region-footer-fourth">
+    <nav role="navigation" aria-labelledby="block-innoraft-digitalmarketing-menu" id="block-innoraft-digitalmarketing" class="block block-menu navigation menu--digital-marketing">
+      
+  <h2 id="block-innoraft-digitalmarketing-menu">Digital Marketing</h2>
+  
+
+        
+
+              <ul id="block-innoraft-digitalmarketing" class="clearfix menu">
+                          <li class="menu-item"
+                      >
+        <a href="/digital-marketing/consulting" data-drupal-link-system-path="node/1062">Consulting</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/digital-marketing/seo" data-drupal-link-system-path="node/1063">SEO</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/digital-marketing/smm" data-drupal-link-system-path="node/1064">SMM</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/digital-marketing/analytics" data-drupal-link-system-path="node/1065">Analytics</a>
+              </li>
+                      <li class="menu-item"
+                      >
+        <a href="/digital-marketing/content-writing-management" data-drupal-link-system-path="node/1066">Content writing and management</a>
+              </li>
+        </ul>
+  
+
+  </nav>
+
+  </section>
+
+                <section class="row region region-footer-fifth">
+    <div id="block-innoraft-contactus" class="block-content-basic block block-block-content block-block-content36074cef-7884-4546-b85a-8b2fcf728738">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="contact-social-block d-flex flex-column"><div class="contact-block d-flex flex-column flex-wrap"><h6>Powering success narratives with experiential tech innovations</h6><p><a class="button-secondary" href="/contact-us" title="Connect with us">Connect with us</a></p></div><div class="follow-block"><h2 class="mb-3">Follow us</h2><div class="d-flex"><a href="https://www.facebook.com/innoraft" target="_blank"><span class="social-icon facebook pe-4"><svg width="9" height="18" viewBox="0 0 9 18" fill="none"><path d="M2.29749 18V9.55388H0V6.51287H2.29749V3.91545C2.29749 1.87438 3.65463 0 6.78176 0C8.04789 0 8.98413 0.11799 8.98413 0.11799L8.91036 2.95778C8.91036 2.95778 7.95554 2.94874 6.9136 2.94874C5.78591 2.94874 5.60524 3.45391 5.60524 4.29237V6.51287H9L8.85229 9.55388H5.60524V18H2.29749Z" fill="#D3D3D3" /></svg></span></a><a href="https://www.twitter.com/innoraft" target="_blank"><span class="social-icon twitter pe-4"><svg width="17" height="16" viewBox="0 0 17 16" fill="none"><path d="M13.0673 0.5H15.613L10.0529 6.85337L16.5938 15.5H11.4736L7.46034 10.2572L2.8738 15.5H0.324519L6.27043 8.70312L0 0.5H5.25L8.8738 5.29207L13.0673 0.5ZM12.1731 13.9784H13.5829L4.48197 1.94231H2.96755L12.1731 13.9784Z" fill="#D3D3D3" /></svg></span></a><a href="https://www.instagram.com/innoraft_solutions" target="_blank"><span class="social-icon instagram pe-4"><svg width="17" height="16" viewBox="0 0 17 16" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.1848 2.84649C16.4177 3.46445 16.5413 4.11822 16.5501 4.77855C16.5987 5.6091 16.5989 5.88072 16.6006 7.9831L16.6007 8.01232C16.6007 10.1423 16.5893 10.4082 16.5518 11.247C16.5388 11.9 16.4158 12.5434 16.1865 13.1537C15.9843 13.6748 15.6758 14.1481 15.2805 14.5434C14.8853 14.9386 14.412 15.2472 13.8909 15.4494C13.2809 15.6783 12.6364 15.8018 11.985 15.8147C11.1523 15.8635 10.8794 15.8635 8.75034 15.8635C6.62123 15.8635 6.35531 15.8522 5.5157 15.8147C4.863 15.7932 4.21874 15.6605 3.61067 15.4223C3.08934 15.2206 2.61584 14.9123 2.22042 14.5171C1.82499 14.122 1.51633 13.6487 1.31416 13.1276C1.08486 12.5164 0.961927 11.873 0.948849 11.2208C0.900024 10.3873 0.900024 10.1153 0.900024 7.98616C0.900024 5.85705 0.911359 5.59113 0.948849 4.75152C0.961163 4.10033 1.08471 3.45604 1.31416 2.84649C1.51599 2.32516 1.82442 1.8517 2.21972 1.45641C2.61501 1.06111 3.08847 0.752685 3.6098 0.550857C4.21954 0.321963 4.86368 0.198146 5.51483 0.184672C6.34747 0.136719 6.62036 0.136719 8.74947 0.136719C10.8786 0.136719 11.1445 0.147181 11.9832 0.184672C12.6347 0.198047 13.2791 0.321866 13.8891 0.550857C14.4104 0.752826 14.8838 1.0613 15.279 1.45658C15.6743 1.85186 15.9828 2.32524 16.1848 2.84649ZM4.71358 7.9818C4.71358 10.2086 6.51748 12.0125 8.74424 12.0125C9.81323 12.0125 10.8384 11.5878 11.5943 10.8319C12.3502 10.076 12.7749 9.0508 12.7749 7.9818C12.7749 6.91281 12.3502 5.88759 11.5943 5.1317C10.8384 4.3758 9.81323 3.95115 8.74424 3.95115C6.51748 3.95115 4.71358 5.75505 4.71358 7.9818ZM12.5755 4.67062C12.6896 4.71782 12.8119 4.74205 12.9353 4.74193C13.4541 4.74193 13.8743 4.32169 13.8743 3.80206C13.8743 3.67869 13.85 3.55653 13.8028 3.44255C13.7556 3.32857 13.6864 3.22501 13.5992 3.13777C13.5119 3.05054 13.4084 2.98134 13.2944 2.93413C13.1804 2.88692 13.0582 2.86262 12.9349 2.86262C12.8115 2.86262 12.6893 2.88692 12.5754 2.93413C12.4614 2.98134 12.3578 3.05054 12.2706 3.13777C12.1834 3.22501 12.1142 3.32857 12.0669 3.44255C12.0197 3.55653 11.9954 3.67869 11.9954 3.80206C11.9953 3.92552 12.0196 4.04779 12.0667 4.16187C12.1139 4.27595 12.1832 4.37961 12.2705 4.46691C12.3578 4.5542 12.4614 4.62343 12.5755 4.67062ZM11.3624 7.98174C11.3624 9.42774 10.1901 10.6 8.74414 10.6C7.29813 10.6 6.12592 9.42774 6.12592 7.98174C6.12592 6.53573 7.29813 5.36351 8.74414 5.36351C10.1901 5.36351 11.3624 6.53573 11.3624 7.98174Z" fill="#D3D3D3" /></svg></span></a><a href="https://www.linkedin.com/company/innoraft" target="_blank"><span class="social-icon linkedin pe-4"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.28377 5.68138H9.12498V7.09663C9.53426 6.28267 10.5838 5.55133 12.1605 5.55133C15.183 5.55133 15.9006 7.1716 15.9006 10.1444V15.6501H12.8406V10.8214C12.8406 9.12847 12.4313 8.17375 11.3894 8.17375C9.9443 8.17375 9.34377 9.20268 9.34377 10.8207V15.6501H6.28377V5.68138ZM1.03664 15.52H4.09664V5.55133H1.03664V15.52ZM4.53498 2.30085C4.53509 2.55733 4.48423 2.81128 4.38534 3.04794C4.28645 3.28459 4.1415 3.49923 3.95894 3.67938C3.58898 4.04705 3.08822 4.25286 2.56664 4.2516C2.04597 4.25125 1.54636 4.04596 1.17587 3.68014C0.993958 3.49938 0.849506 3.2845 0.750789 3.04782C0.652072 2.81113 0.601029 2.55729 0.600586 2.30085C0.600586 1.78294 0.807136 1.28722 1.17663 0.921553C1.5468 0.555239 2.04662 0.349869 2.5674 0.350098C3.08913 0.350098 3.58944 0.555883 3.95894 0.921553C4.32767 1.28722 4.53498 1.78294 4.53498 2.30085Z" fill="#D3D3D3" /></svg></span></a></div></div></div></div>
+      
+    </div>
+  </div>
+
+  </section>
+
+            </div>
+                                <div class="site-footer__bottom">
+              <div class="copyright_block">Copyright © 2024 Innoraft Solutions Pvt Ltd. All rights reserved.</div>
+                <section class="row region region-footer-sixth">
+    <nav role="navigation" aria-labelledby="block-innoraft-footer-menu" id="block-innoraft-footer" class="block block-menu navigation menu--footer">
+            
+  <h2 class="visually-hidden" id="block-innoraft-footer-menu">Footer</h2>
+  
+
+        
+              <ul class="clearfix nav navbar-nav">
+                    <li class="nav-item">
+                <a href="/privacy-policy" class="nav-link nav-link--privacy-policy" data-drupal-link-system-path="node/1361">Privacy policy</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </section>
+
+            </div>
+                  </div>
+          </footer>
+  </div>
+</div>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/1145","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJx1ke1WwyAMhm-IlkvihJKxaCA1Sae7e-l06lnnHzg8bz5ekozuqAk_VjEs6UQ8nhZhc0m25UYe8vOQih0V-C6bLASc7AxKvaa8uUu3aH7l8Q5ZxM0V1pRBlST-gqX0J7IilEW3lo_aSbQdaWXJwNO_DQd9tSNuaAYVLTHVsx_1LgXDIoqR-vhnB55f3jbU63yzUUUqY4LBr07LGMsDCNS7KJw8ZpY6MfSy2_uhD7Z_uCKDY5n2rD9FTFgnQ9Dl_AsvhO82rVCpg5P0QJoa2LAbx7ZwugBTARf9I9z7LkqrW_gqmWCltO9-kbYyOsZ_eLDrqNJiBsNwa_9lYm5SNsbwjnkfT_y-Z3iBjwNExobd54IOxDYbXI6Zj0EutT5pcA_7XudB349PaAknxg","theme":"innoraft","theme_token":null},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true,"\/blogs\/manage-multiple-github-accounts-pro?ajax_form=1":true,"\/search":true},"google_analytics":{"account":"G-30MC8MMHNE","trackOutbound":true,"trackMailto":true,"trackTel":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"ajax":{"edit-actions-submit":{"callback":"::submitAjaxForm","event":"click","effect":"fade","speed":500,"progress":{"type":"throbber","message":""},"disable-refocus":true,"url":"\/blogs\/manage-multiple-github-accounts-pro?ajax_form=1","httpMethod":"POST","dialogType":"ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Let\u0027s get started!"}}},"search_api_autocomplete":{"solr_search":{"auto_submit":true}},"user":{"uid":0,"permissionsHash":"acac24db311c6497cfe6d4509bc579db2ed0584d899ae372d074782ac6ce3c3d"}}</script>
+<script src="/sites/default/files/js/js_EMg5GQlhz3gF3CXWzq9Ieq4PdYNekLz-9L8hDNnZGAI.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=innoraft&amp;include=eJyFkllywjAMhi-U5UgeORZGVLZSSWG5fU2glCEwfZHHn_bfziKZMUAFvjhNNuYX0JGGAuaoY2aJwL1NSrM_O3bE2B-BKYGLdnZptIwRDLso4uYKc4igSvIo4hemmjuqVRR2_spPGHeiZbyfw9VsIDIWrD4kdCC2weCI_wa55LbgJgwOcP6YW9AM8ptt1rEeO5iw9oag076bRHGk2uRpSg6H7wX1ctviSHiycbVDkbS0YR4VVtrPkKmCk9RtxyrpKV6RwTH1kSXbNrhJ-dUwehsjmEwEHGwP2hQOcXGXauOv4pvkqAhp0qXEv37XPj1DTWvGrS6eZzFMof2Cdm0_CCsq8Cc3LC7BlljIu5tWAWYKVzxJmRkdxw_8zYwPMKU3Yt3fzQJT3vsPBr4nxg"></script>
+<script src="//cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
